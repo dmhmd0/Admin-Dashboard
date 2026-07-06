@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="dashboard">
+        <aside class="sidebar">
+            <!-- شعار لوحة التحكم -->
+            <div class="branding">
+                <span class="branding-icon">▦</span>
+                <h1>Dashboard</h1>
+            </div>
+
+            <!-- القائمة الأولى -->
+            <nav class="main-navigation">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#">
+                        <span class="nav-icon">⌂</span>
+                        <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <span class="nav-icon">▣</span>
+                        <span>Profile</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <span class="nav-icon">✉</span>
+                        <span>Messages</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <span class="nav-icon">◷</span>
+                        <span>History</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <span class="nav-icon">▤</span>
+                        <span>Tasks</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <span class="nav-icon">♟</span>
+                        <span>Communities</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- القائمة الثانية -->
+            <nav class="secondary-navigation">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#">
+                        <span class="nav-icon">⚙</span>
+                        <span>Settings</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <span class="nav-icon">?</span>
+                        <span>Support</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                        <span class="nav-icon">✓</span>
+                        <span>Privacy</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </aside>
+
+        <header class="header">
+            <div class="header-top">
+                <div class="search-area">
+                    <span class="search-icon">⌕</span>
+                    <input type="search">
+                </div>
+                <div class="user-area">
+                    <button
+                        type="button"
+                        class="notification-button"
+                        aria-label="Notifications"
+                    >
+                        <img src="icons/notification.svg" alt="">
+                    </button> 
+                 
+                    <img class="user-photo" src="./images/user1.jpg" alt="User">
+                    <span>Morgan Oakley</span>  
+                </div>    
+            </div>
+            <div class="header-bottom">
+                <div class="welcome-area">
+                    <img class="user-photo" src="./images/user1.jpg" alt="User">
+
+                    <div class="welcome-text">
+                        <p>Hi there,</p>
+                        <strong>Morgan Oakley (@morgan) </strong>  
+                    </div> 
+               </div>
+
+                <div class="header-buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>       
+        </header>
+
+        <main class="main-content">
+            <section class="projects-section">
+                <strong>
+                    Your Projects
+                </strong>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <strong>Super Cool Project</strong>
+                            
+                            <p>
+                                Sed tempus ut lacus ut scelerisque. Suspendisse
+                                sollicitudin nibh erat, id facilisis felis accumsan nec.
+                            </p>
+                        </div>
+
+                        <div class="project-actions">
+                            <button type="button" aria-label="Add project to favorites">
+                                <img src="icons/star-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Watch project">
+                                <img src="icons/eye-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Fork project">
+                                <img src="icons/share-variant.svg" alt="">
+                            </button>
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <div class="project-content">
+                        <strong>Less Cool Project</strong>
+                        
+                        <p>
+                            Nullam condimentum ipsum ut lectus vehicula consectetur.
+                            Quisque sed dolor tincidunt, consectetur sapien et.
+                        </p>
+                        </div>
+
+                        <div class="project-actions">
+                            <button type="button" aria-label="Add project to favorites">
+                                <img src="icons/star-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Watch project">
+                                <img src="icons/eye-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Fork project">
+                                <img src="icons/share-variant.svg" alt="">
+                            </button>
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <div class="project-content">
+                        <strong>Impossible App</strong>
+                        <p>
+                            In hac habitasse platea dictumst. Vivamus dictum rutrum
+                            arcu, a placerat velit sagittis id.
+                        </p>
+                        <div class="project-actions">
+                            <button type="button" aria-label="Add project to favorites">
+                                <img src="icons/star-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Watch project">
+                                <img src="icons/eye-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Fork project">
+                                <img src="icons/share-variant.svg" alt="">
+                            </button>
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <div class="project-content">
+                        <strong>Easy Peasy App</strong>
+                        <p>
+                            Etiam cursus eros ac efficitur fringilla. Vestibulum
+                            dignissim urna eget accumsan aliquam.
+                        </p>
+                        </div>
+
+                        <div class="project-actions">
+                            <button type="button" aria-label="Add project to favorites">
+                                <img src="icons/star-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Watch project">
+                                <img src="icons/eye-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Fork project">
+                                <img src="icons/share-variant.svg" alt="">
+                            </button>
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <div class="project-content">
+                        <strong>Ad Blocker</strong>
+                        <p>
+                            Quisque eget rutrum nisl. Nam augue justo, cursus vitae
+                            metus vel, pharetra hendrerit felis.
+                        </p>
+                        </div>
+
+                        <div class="project-actions">
+                            <button type="button" aria-label="Add project to favorites">
+                                <img src="icons/star-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Watch project">
+                                <img src="icons/eye-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Fork project">
+                                <img src="icons/share-variant.svg" alt="">
+                            </button>
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <div class="project-content">
+                        <strong>Money Maker</strong>
+                        <p>
+                            Praesent convallis, libero quis congue elementum, nunc
+                            ante faucibus sapien, ac scelerisque tortor purus sit amet.
+                        </p>
+                        </div>
+
+                        <div class="project-actions">
+                            <button type="button" aria-label="Add project to favorites">
+                                <img src="icons/star-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Watch project">
+                                <img src="icons/eye-plus-outline.svg" alt="">
+                            </button>
+
+                            <button type="button" aria-label="Fork project">
+                                <img src="icons/share-variant.svg" alt="">
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <aside class="right-sidebar">
+                <section class="announcements-section">
+                    <strong>Announcements</strong>  
+                    <div class="announcements-card">
+                        <article class="announcement-item">
+                            <strong>Site Maintenance</strong>                       
+                            <p>
+                                Vestibulum condimentum tellus lacus, in accumsan elit
+                                maximus ac. Donec hendrerit sodales congue.
+                            </p>
+                        </article>
+                        <article class="announcement-item">
+                            <strong>Community Share Day</strong>
+                            <p>
+                            Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.
+                            Aliquam dictum accumsan porttitor.
+                            </p>
+                        </article>
+                        <article class="announcement-item">
+                            <strong>Updated Privacy Policy</strong>
+                            <p>
+                            Phasellus efficitur nisi eget elit consectetur, eget
+                            condimentum ante auctor.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="trending-section">
+                    <strong>Trending</strong>
+                    <div class="trending-card">
+                        <div class="trending-item">
+                             <img class="user-photo" src="./images/user2.jpg" alt="User">
+
+                            <div class="trending-info">
+                                <span class="username">@tegan</span>
+                                <span class="project-name">World Peace Builder</span>
+                            </div>
+                        </div>  
+                        <div class="trending-item">
+                            <img class="user-photo" src="./images/user1.jpg" alt="User">
+                            <div class="trending-info">
+                                <span class="username">@morgan</span>
+                                <span class="project-name">Super Cool Project</span>
+                            </div>
+                        </div>
+
+                        <div class="trending-item">
+                            <img class="user-photo" src="./images/user.png" alt="User">
+
+
+                            <div class="trending-info">
+                                <span class="username">@kendall</span>
+                                <span class="project-name">Life Changing App</span>
+                            </div>
+                        </div>
+
+                        <div class="trending-item">
+                             <img class="user-photo" src="./images/user2.jpg" alt="User">
+
+
+                            <div class="trending-info">
+                                <span class="username">@alex</span>
+                                <span class="project-name">No Traffic Maker</span>
+                            </div>
+                        </div>    
+                    </div>
+
+                </section>    
+            </aside>
+        </main>
+  </div>
+</body>
+</html>
